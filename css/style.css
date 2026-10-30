@@ -410,3 +410,19 @@ a:hover { text-decoration: underline; }
   .topbar-progress { display: none; }
   .brand-sub { display: none; }
 }
+
+.footer-bar {
+  display: flex;
+  align-items: center;      /* 垂直居中 */
+  justify-content: center;  /* 水平居中 */
+  gap: 8px;                 /* 文字与 logo 之间的间距 */
+  line-height: 1;           /* 消除行高带来的几像素偏差 */
+  padding: 12px 0;          /* 撑出上下留白，居中才看得出来 */
+  background-color: #eeeeee;
+  clear: both;
+}
+.footer-link {              /* 让 img 成为 flex 子项，彻底避开基线错位 */
+  display: inline-flex;
+  align-items: center;
+}
+.footer-bar img { display: block; }  /* 去掉 inline 图片底部的 descender 间隙 */

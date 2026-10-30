@@ -2,9 +2,14 @@
 
 一个帮助你从零基础系统学习 C 语言的免费静态网站：在线写代码、编译运行、自动判题、章节训练与进度记录。手机、电脑浏览器都能用。
 
+## Update log
+
+1. Update index.html.
+2. Update CSS/style, add footer.
+
 ## 在线地址
 
-https://renyuq1.github.io/c-learn/
+https://plugingeo.github.io/c-learn/
 
 ## 课程大纲（9 章 · 48 小节）
 
